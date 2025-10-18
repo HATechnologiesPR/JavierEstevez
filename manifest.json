@@ -3,8 +3,8 @@
     "short_name": "JavierEstevez",
     "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#333333",
-    "theme_color": "#333333",
+    "background_color": "black",
+    "theme_color": "black",
     "description": "Business card page for Javier A. Estevez Díaz.",
     "icons": [
         {
