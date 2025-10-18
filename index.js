@@ -55,7 +55,7 @@ N:Estevez;Javier A.;;;;
 ORG:Beer Me Home - Beer Me Valhalla
 TEL;TYPE=CELL:939-232-3317
 EMAIL:beermehome@gmail.com
-URL:https://bigbearwellnessstudio.github.io/
+URL:https://hatechnologiespr.github.io/JavierEstevez/
 NOTE:Taproom de Tapas y Cervezas Artesanales.
 END:VCARD`;
 
