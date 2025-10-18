@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Javier A. Estevez Díaz</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <!-- Carrusel de banners -->
+      <img id="banner-carousel" src="images/Banner1.png" alt="Banner"
+        class="banner">
+
+      <h1>Javier A. Estevez Díaz</h1>
+      <p class="titulo">Taproom de Tapas y Cervezas Artesanales</p>
+
+      <div class="button-grid">
+        <div class="social-row">
+          <a class="social-btn" href="https://www.facebook.com/beermehome2" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a class="social-btn" href="https://www.instagram.com/beermehome" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        </div>
+        <button class="boton" id="locations-btn" onclick="mostrarLocaciones()">
+          <i class="fa-solid fa-location-dot"></i> Locations
+        </button>
+        <div id="locaciones-expandidas" style="display:none;">
+        <a class="boton" href="https://maps.app.goo.gl/XMPYRcPYC2gaMBH27" target="_blank">
+          <i class="fa-solid fa-location-dot"></i> Beer Me Home
+        </a>
+        <a class="boton" href="https://maps.app.goo.gl/fPXfTe3mWbSKFyNPA" target="_blank">
+          <i class="fa-solid fa-location-dot"></i> Beer Me Valhalla
+        </a>
+        <button class="boton close-btn" onclick="cerrarLocacionesPopup()">Close</button>
+      </div>
+        <a class="boton" href="tel:+19392323317">
+          <i class="fa-solid fa-mobile-screen"></i> Cell Phone
+        </a>
+        <a class="boton" href="mailto:beermehome@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a class="boton" href="https://www.beermehome.com/">
+          <i class="fas fa-globe"></i> Website
+        </a>
+      </div>
+
+      <div class="double-row">
+        <button class="boton half" onclick="compartirEnlace()">
+          <i class="fas fa-share-alt"></i>Share
+        </button>
+        <button class="boton half" onclick="agregarContacto()">
+          <i class="fas fa-user-plus"></i>Add contact
+        </button>
+      </div>
+
+      <p class="powered-by">
+        <span style="cursor:pointer;"
+          onclick="window.location.href='https://hatechnologiespr.github.io/'">Powered
+          by HA Technologies</span>
+      </p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
